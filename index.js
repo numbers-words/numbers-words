@@ -8,7 +8,7 @@ const toOrdinalWord = require("./src/functions/toOrdinalWord.js");
 const ntoSciNot = require("./src/functions/ntoSciNot.js");
 const sntoNumber = require("./src/functions/sntoNumber.js");
 const toTime = require("./src/functions/toTime.js");
-consg unformatNumber = require("./src/functions/unformatNumber.js");
+const unformatNumber = require("./src/functions/unformatNumber.js");
 module.exports = {
   toWords,
   toNumbers,
