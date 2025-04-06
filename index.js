@@ -1,4 +1,4 @@
-const toWords = require("./src/functions/toWords.js");
+	const toWords = require("./src/functions/toWords.js");
 const toNumbers = require("./src/functions/toNumbers.js");
 const formatNumber = require("./src/functions/formatNumber.js");
 const toOrdinal = require("./src/functions/toOrdinal.js");
