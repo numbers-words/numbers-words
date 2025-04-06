@@ -1,6 +1,7 @@
+const maxRoman = require("../core/maxNumber.js");
 function ntoRoman(number) {
   if (isNaN(number)) throw new Error("Expected a number");
-  if (number < 1 || number > 3999) throw new Error("Number should be above 1 and below 3999.");
+  if (number < 1 || number > maxRoman) throw new Error("Number should be above 1 and below" + maxRoman);
   const romanNumerals = [
     { value: 1000, symbol: "M" },
     { value: 900, symbol: "CM" },
@@ -16,6 +17,7 @@ function ntoRoman(number) {
     { value: 4, symbol: "IV" },
     { value: 1, symbol: "I" }
   ];
+  // Can someone fact check this rq
   let result = "";
   for (let i = 0; i < romanNumerals.length; i++) {
     while (number >= romanNumerals[i].value) {

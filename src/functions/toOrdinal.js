@@ -5,9 +5,9 @@ function toOrdinal(number) {
 
   let idkWhatToName = number.toString();
   let lastDigit = idkWhatToName.slice(-1);
-  let lastTwoDigits = idkWhatToName.slice(-2);
-
-  if (["11", "12", "13"].includes(lastTwoDigits)) {
+  let lastTooDigits = idkWhatToName.slice(-2);
+  // Very kawai name
+  if (["11", "12", "13"].includes(lastTooDigits)) {
     return `${number}th`;
   }
 
