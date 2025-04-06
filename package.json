@@ -1,14 +1,14 @@
 {
-  "name": "words-numbers",
+  "name": "numbers-words",
   "version": "1.0.0",
-  "description": "words-numbers is a useful package when you are working with numbers. It can converts numbers to words, format numbers and even do maths with words (two plus two)",
+  "description": "numbers-words is a useful package when you are working with numbers. It can converts numbers to words, format numbers and even do maths with words (two plus two)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wordsnnumbers/words-numbers.git"
+    "url": "git+https://github.com/numbers-words/numbers-words.git"
   },
   "keywords": [
     "numbers",
@@ -21,7 +21,7 @@
   "author": "Ivaylo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wordsnnumbers/words-numbers/issues"
+    "url": "https://github.com/numbers-words/numbers-words/issues"
   },
-  "homepage": "https://github.com/wordsnnumbers/words-numbers#readme"
+  "homepage": "https://github.com/numbers-words/numbers-words#readme"
 }
