@@ -1,3 +1,3 @@
-const toNumber = require('../src/functions/toNumbers.js');
+const formatNumber = require('../src/functions/formatNumber.js');
 
-console.log(toNumber("too hundred thirteen"));
+console.log(formatNumber(10000, "."));

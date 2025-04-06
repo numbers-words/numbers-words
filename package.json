@@ -1,7 +1,7 @@
 {
   "name": "numbers-words",
   "version": "1.0.0",
-  "description": "numbers-words is a useful package when you are working with numbers. It can converts numbers to words, format numbers and even do maths with words (two plus two)",
+  "description": "numbers-words is a useful package when you are working with numbers. It can converts numbers to words, format numbers and more in the upcoming versions!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
