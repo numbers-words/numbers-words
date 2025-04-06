@@ -1,3 +1,3 @@
-const formatNumber = require('../src/functions/formatNumber.js');
+const ntoRoman = require('../src/functions/ntoRoman.js');
 
-console.log(formatNumber(10000, "."));
+console.log(ntoRoman(3999));
