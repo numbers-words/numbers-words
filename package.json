@@ -1,0 +1,27 @@
+{
+  "name": "words-numbers",
+  "version": "1.0.0",
+  "description": "words-numbers is a useful package when you are working with numbers. It can converts numbers to words, format numbers and even do maths with words (two plus two)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wordsnnumbers/words-numbers.git"
+  },
+  "keywords": [
+    "numbers",
+    "words",
+    "number-to-word",
+    "word-to-number",
+    "number-formatting",
+    "math"
+  ],
+  "author": "Ivaylo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wordsnnumbers/words-numbers/issues"
+  },
+  "homepage": "https://github.com/wordsnnumbers/words-numbers#readme"
+}
