@@ -1,5 +1,7 @@
+const maxNumber = require("../core/maxNumber.js");
 function toOrdinal(number) {
   if (isNaN(number)) throw new Error("Expected a number");
+  if (number > maxNumber) throw new Error("Number can not be greater than" + maxNumber);
 
   let idkWhatToName = number.toString();
   let lastDigit = idkWhatToName.slice(-1);

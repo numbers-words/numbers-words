@@ -1,3 +1,3 @@
 const maxNumber = 9007199254740991;
-
-module.exports = { maxNumber };
+const maxRoman = 3999;
+module.exports = { maxNumber, maxRoman };

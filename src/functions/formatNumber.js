@@ -1,6 +1,7 @@
+const maxNumber = require("../core/maxNumber.js");
 function formatNumber(number, separator = ',') {
   if (isNaN(number)) throw new Error("Expected a number");
-
+  if (number > maxNumber) throw new Error("Number cannnot be greater than" + maxNumber);
   if (typeof separator !== 'string') {
     throw new Error("Separator must be a string");
   }

@@ -1,3 +1,3 @@
-const toWordsDate = require('../src/functions/toWordsDate.js');
+const rtoNumber = require('../src/functions/rtoNumber.js');
 
-console.log(toWordsDate("2025-4-3"));
+console.log(rtoNumber("MMMCMXCX"));

@@ -1,4 +1,5 @@
 const toWords = require("./toWords.js");
+const maxNumber = require("../core/maxNumber.js");
 
 function toOrdinalWord(number) {
   const specialCases = {
@@ -44,7 +45,7 @@ function toOrdinalWord(number) {
     100000000000000: "hundred-trillionth",
     1000000000000000: "quadrillionth"
   };
-
+  if (number > maxNumber) throw new Error("Number can not be greater than" + maxNumber);
   if (specialCases[number]) {
     return specialCases[number];
   }

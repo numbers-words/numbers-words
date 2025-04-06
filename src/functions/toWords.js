@@ -23,7 +23,7 @@ function toWords(number) {
   }
 
   if (number > maxNumber) {
-    throw new Error("Number is too big");
+    throw new Error("Number can not be greater than" + maxNumber);
   }
 
   return generateWords(number);
