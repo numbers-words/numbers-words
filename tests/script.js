@@ -1,3 +1,3 @@
-const ntoRoman = require('../src/functions/ntoRoman.js');
+const toWordsDate = require('../src/functions/toWordsDate.js');
 
-console.log(ntoRoman(3999));
+console.log(toWordsDate("2025-4-3"));

@@ -4,6 +4,7 @@ const formatNumber = require("./src/functions/formatNumber.js");
 const toOrdinal = require("./src/functions/toOrdinal.js");
 const toWordsDate = require("./src/functions/toWordsDate.js");
 const ntoRoman = require("./src/functions/ntoRoman.js");
+const toOrdinalWord = require("./src/functions/toOrdinalWord.js");
 
 module.exports = {
   toWords,
@@ -11,5 +12,6 @@ module.exports = {
   formatNumber,
   toOrdinal,
   toWordsDate,
-  ntoRoman
+  ntoRoman,
+  toOrdinalWord
 };

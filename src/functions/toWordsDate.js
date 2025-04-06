@@ -1,31 +1,23 @@
 const toWords = require("./toWords.js");
+const toOrdinalWord = require("./toOrdinalWord.js");
 
 function toWordsDate(date) {
   const datet = new Date(date);
 
-  if (isNaN(datet.getTime())) {
-    throw new Error("Invalid date format");
-  }
-
-  const months = [
-    "January", "February", "March", "April", "May", "June", "July", "August", "September", 
-    "October", "November", "December"
+  const monthNames = [
+    "January", "February", "March", "April", "May", "June", "July", "August", 
+    "September", "October", "November", "December"
   ];
 
+  const month = monthNames[datet.getMonth()];
   const day = datet.getDate();
-  const month = months[datet.getMonth()];
   const year = datet.getFullYear();
 
-  const idk = toWords(day);
-  const idk2 = (day === 1 || day === 21 || day === 31) ? "st" : 
-                 (day === 2 || day === 22) ? "nd" : 
-                 (day === 3 || day === 23) ? "rd" : "th";
+  const dayWord = toOrdinalWord(day);
 
-  const idk3 = idk + idk2;
+  const yearWord = toWords(year);
 
-  const yearWords = toWords(year);
-
-  return `${month} ${idk3}, ${yearWords}`;
+  return `${month} ${dayWord}, ${yearWord}`;
 }
 
 module.exports = toWordsDate;
