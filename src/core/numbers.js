@@ -6,3 +6,5 @@ const allNumbers = {
   4: "four",
   5: "five"
 };
+
+module.exports = { maxNumber, allNumbers };
