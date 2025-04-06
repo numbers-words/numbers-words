@@ -1,6 +1,6 @@
 {
   "name": "numbers-words",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "numbers-words is a useful package when you are working with numbers. It can converts numbers to words, format numbers and more in the upcoming versions!",
   "main": "index.js",
   "scripts": {
