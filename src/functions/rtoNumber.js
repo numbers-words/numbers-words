@@ -1,6 +1,6 @@
 function rtoNumber(roman) {
   if (typeof roman !== "string") throw new Error("Expected a string");
-  
+
   const romans = [
     { symbol: "M", value: 1000 },
     { symbol: "CM", value: 900 },
@@ -21,16 +21,16 @@ function rtoNumber(roman) {
   let i = 0;
   
   while (i < roman.length) {
-    let found = false;
+    let yay = false;
     for (let j = 0; j < romans.length; j++) {
       if (roman.substring(i, i + romans[j].symbol.length) === romans[j].symbol) {
         result += romans[j].value;
         i += romans[j].symbol.length;
-        found = true;
+        yay = true;
         break;
       }
     }
-    if (!found) {
+    if (!yay) {
       throw new Error("Invalid Roman numeral");
     }
   }

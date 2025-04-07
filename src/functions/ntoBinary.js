@@ -7,8 +7,8 @@ function ntoBinary(number) {
 
   if (number === 0) return 'zero';
 
-  let isNegative = number < 0;
-  if (isNegative) number = -number;
+  let negative = number < 0;
+  if (negative) number = -number;
 
   const binaryt = number.toString(2);
   const binaryWords = {
@@ -19,7 +19,7 @@ function ntoBinary(number) {
   let result = binaryt.split('').map(digit => 
 binaryWords[digit]).join(' ');
 
-  if (isNegative) {
+  if (negative) {
     result = 'negative ' + result;
   }
 

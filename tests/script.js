@@ -1,7 +1,2 @@
-const ntoBinary = require("../src/functions/ntoBinary");
-
-console.log(ntoBinary(10));
-console.log(ntoBinary(-10));
-console.log(ntoBinary(5));
-console.log(ntoBinary(-5));
-console.log(ntoBinary(0));
+const mtoNumber = require("../src/functions/mtoNumber.js");
+console.log(mtoNumber(".---- -----"));
