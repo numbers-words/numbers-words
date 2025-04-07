@@ -11,7 +11,7 @@ const toTime = require("./src/functions/toTime.js");
 const unformatNumber = require("./src/functions/unformatNumber.js");
 const btoNumber = require("./src/functions/btoNumber.js");
 const ntoBinary = require("./src/functions/ntoBinary.js");
-const toFactorial = require("./src/functions/toFactorial.js");
+const toFac = require("./src/functions/toFac.js");
 const toPower = require("./src/functions/toPower.js");
 const toRoot = require("./src/functions/toRoot.js");
 const ntoMorse = require("./src/functions/ntoMorse.js");
@@ -31,7 +31,7 @@ module.exports = {
   unformatNumber,
   btoNumber,
   ntoBinary,
-  toFactorial,
+  toFac,
   toPower,
   toRoot,
   ntoMorse,
